@@ -58,7 +58,22 @@ module.exports = {
                         options:{byPassOnDebug:true}
                     }
                 ]
-            }
+            },     
+        {
+            test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+            use: [
+                {
+                    loader: 'file-loader',
+                    options: {
+                        //name: '[name].[ext]',
+                        name: '[name].[ext]',
+                        mimetype: 'application/font-woff',
+                        outputPath: 'fonts',
+                        publicPath: '../build/fonts'       // override the default path
+                    }
+                }
+            ]
+        },
         ]   //rules end
     },
     plugins: [
