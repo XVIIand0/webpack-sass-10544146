@@ -34,7 +34,7 @@
     "cssnano": "^4.1.10",
     "file-loader": "^3.0.1",
     "font-awesome": "^4.7.0",
-    "html-webpack-plugin": "^3.2.0",
+    "html-webpack-plugin": "^5.5.0",
     "image-webpack-loader": "^6.0.0",
     "mini-css-extract-plugin": "^0.8.0",
     "node-sass": "^4.12.0",
@@ -46,7 +46,7 @@
     "style-loader": "^0.21.0",
     "url-loader": "^2.1.0",
     "webpack": "^4.40.2",
-    "webpack-cli": "^3.3.9",
+    "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.8.1",
     "webpack-md5-hash": "0.0.6"
   }
